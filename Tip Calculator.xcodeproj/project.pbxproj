@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3634DCE11D9E29B700507AC5 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634DCE01D9E29B700507AC5 /* UIColor+Utilities.swift */; };
+		366CE01D1D9CF02B00B07C30 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CE01C1D9CF02B00B07C30 /* SettingsViewController.swift */; };
+		366CE01F1D9D00A400B07C30 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CE01E1D9D00A400B07C30 /* CurrencyViewController.swift */; };
 		36D8FAA71D98BB80004644DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8FAA61D98BB80004644DB /* AppDelegate.swift */; };
 		36D8FAA91D98BB80004644DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8FAA81D98BB80004644DB /* ViewController.swift */; };
 		36D8FAAC1D98BB80004644DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D8FAAA1D98BB80004644DB /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3634DCE01D9E29B700507AC5 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		366CE01C1D9CF02B00B07C30 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		366CE01E1D9D00A400B07C30 /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
 		36D8FAA31D98BB80004644DB /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D8FAA61D98BB80004644DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36D8FAA81D98BB80004644DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				36D8FAAD1D98BB80004644DB /* Assets.xcassets */,
 				36D8FAAF1D98BB80004644DB /* LaunchScreen.storyboard */,
 				36D8FAB21D98BB80004644DB /* Info.plist */,
+				366CE01C1D9CF02B00B07C30 /* SettingsViewController.swift */,
+				366CE01E1D9D00A400B07C30 /* CurrencyViewController.swift */,
+				3634DCE01D9E29B700507AC5 /* UIColor+Utilities.swift */,
 			);
 			path = "Tip Calculator";
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3634DCE11D9E29B700507AC5 /* UIColor+Utilities.swift in Sources */,
 				36D8FAA91D98BB80004644DB /* ViewController.swift in Sources */,
+				366CE01F1D9D00A400B07C30 /* CurrencyViewController.swift in Sources */,
 				36D8FAA71D98BB80004644DB /* AppDelegate.swift in Sources */,
+				366CE01D1D9CF02B00B07C30 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				36D8FACD1D98BB80004644DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36D8FACE1D98BB80004644DB /* Build configuration list for PBXNativeTarget "Tip CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				36D8FAD01D98BB80004644DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36D8FAD11D98BB80004644DB /* Build configuration list for PBXNativeTarget "Tip CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				36D8FAD31D98BB80004644DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
