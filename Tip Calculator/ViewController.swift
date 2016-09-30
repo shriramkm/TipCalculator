@@ -14,7 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipSlider: UISlider!
     @IBOutlet weak var totalField: UITextField!
     @IBOutlet weak var currentTipPercentage: UILabel!
-    var currencySymbol:String = ""
+    var currencySymbol:String = "$"
+    var defaultTip:Int = 15
+    var selectedCurrencyRow:Int = 2
+    var selectedDefaultTipRow:Int = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +27,8 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        calculateTotalAmount(self)
+        tipSlider.setValue(Float(defaultTip), animated: true)
+        calculateTotalAmount(tipSlider)
         amountField.becomeFirstResponder()
     }
 

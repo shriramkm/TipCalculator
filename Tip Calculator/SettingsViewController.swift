@@ -10,8 +10,8 @@ import UIKit
 
 class SettingsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     weak var tableView : UITableView!
-    var settingsOptions:[String] = ["Currency", "About"]
-    var settingsViewControllers:[UIViewController] = [CurrencyViewController()]
+    var settingsOptions:[String] = ["Default tip", "Currency", "About"]
+    var settingsViewControllers:[UIViewController] = [DefaultTipViewController(),CurrencyViewController()]
     
     override func viewDidLoad() {
         self.view = UITableView(frame: CGRectZero, style: .Plain)
@@ -33,7 +33,7 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
