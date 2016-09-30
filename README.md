@@ -33,6 +33,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
+* I was unsuccessful in refactoring the ViewController to rename it as TipViewController and hence, my primary ViewController is named as ViewController.swift
 
 ## License
 
